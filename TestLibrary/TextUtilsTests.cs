@@ -11,7 +11,21 @@ namespace TestLibrary
         {
             var wordCount = WordCount.GetWordCount("Jack", "Jack jack");
 
-            Assert.NotEqual(2, wordCount);
+            Assert.Equal(2, wordCount);
+        }
+
+        //Theory exemplar
+
+        [Theory]
+        [InlineData(0, "Ting", "Does not appear in the string.")]
+        [InlineData(1, "Ting", "Ting appears once.")]
+        [InlineData(2, "Ting", "Ting appears twice with Ting.")]
+        public void CountInstancesCorrectly(int count,
+                                    string searchWord,
+                                    string inputString)
+        {
+            Assert.Equal(count, WordCount.GetWordCount(searchWord,
+                                                       inputString));
         }
     }
 }

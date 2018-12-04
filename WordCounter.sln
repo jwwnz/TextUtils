@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextUtils", "TextUtils\Text
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{815C8239-4BEF-4186-9E4A-CD68EC112EFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounterApp", "WordCounterApp\WordCounterApp.csproj", "{EFBC0502-159D-4F33-AFC9-98FDA773D128}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{815C8239-4BEF-4186-9E4A-CD68EC112EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{815C8239-4BEF-4186-9E4A-CD68EC112EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{815C8239-4BEF-4186-9E4A-CD68EC112EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBC0502-159D-4F33-AFC9-98FDA773D128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBC0502-159D-4F33-AFC9-98FDA773D128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBC0502-159D-4F33-AFC9-98FDA773D128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBC0502-159D-4F33-AFC9-98FDA773D128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -16,4 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TextUtils\TextUtils.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="UnitTest1.cs" />
+  </ItemGroup>
 </Project>
